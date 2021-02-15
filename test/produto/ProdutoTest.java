@@ -1,4 +1,4 @@
-package produto;
+package test.produto;
 
 import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertNotSame;
@@ -12,6 +12,8 @@ import static org.hamcrest.CoreMatchers.*;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
+
+import src.produto.Produto;
 
 public class ProdutoTest {
 	
